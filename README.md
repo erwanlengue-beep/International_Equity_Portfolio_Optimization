@@ -104,3 +104,20 @@ Key limitations include:
 ## Disclaimer
 
 This project is for educational and portfolio-analysis purposes only. It does not constitute financial advice or a recommendation to buy or sell any security.
+
+The analysis compares four portfolio allocation strategies
+based on historical return, volatility and risk-adjusted performance.
+
+| Strategy | Annualized Return (%) | Volatility (%) | Sharpe Ratio | Maximum Drawdown (%) | VaR 95% (%) | CVaR 95% (%) |
+|---|---:|---:|---:|---:|---:|---:|
+| Equal Weight | 16.09 | 18.13 | 0.78 | -30.89 | -1.73 | -2.46 |
+| Minimum Volatility | 8.32 | 13.14 | 0.48 | -23.80 | -1.32 | -1.89 |
+| Maximum Sharpe | 23.14 | 20.11 | 1.05 | -36.36 | -1.96 | -2.81 |
+| Constrained Maximum Sharpe | 19.66 | 18.94 | 0.93 | -33.75 | -1.85 | -2.56 |
+
+### Key Observations
+
+- The Minimum Volatility strategy exhibits the lowest historical volatility and maximum drawdown.
+- The Maximum Sharpe strategy achieves the highest historical Sharpe ratio.
+- The Constrained Maximum Sharpe strategy incorporates position limits to improve diversification.
+- The results highlight the trade-off between return potential, portfolio risk and diversification.
